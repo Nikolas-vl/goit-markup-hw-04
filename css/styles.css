@@ -312,8 +312,6 @@ body {
 }
 
 .team-soc-icon {
-  width: 16px;
-  height: 16px;
   fill: #fff;
 }
 .team-list-item:hover .team-soc-item {
@@ -434,11 +432,12 @@ body {
 
 .footer-box {
   display: flex;
-  gap: 120px;
   justify-content: baseline;
 }
 
-.footer-soc {
+.footer-dcr {
+  margin-right: 120px;
+  min-width: 264px;
 }
 
 .footer-soc-text {
@@ -455,7 +454,7 @@ body {
   gap: 16px;
 }
 
-.footer-soc-item {
+.footer-soc-link {
   width: 40px;
   height: 40px;
   background-color: #4d5ae5;
@@ -463,6 +462,7 @@ body {
   justify-content: center;
   align-items: center;
   display: flex;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-soc-icon {
@@ -471,6 +471,6 @@ body {
   height: 24px;
 }
 
-.footer-soc-item:hover {
+.footer-soc-link:hover {
   background-color: #31d0aa;
 }

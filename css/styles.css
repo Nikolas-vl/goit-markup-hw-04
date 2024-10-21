@@ -435,6 +435,7 @@ body {
 .footer-box {
   display: flex;
   gap: 120px;
+  justify-content: baseline;
 }
 
 .footer-soc {

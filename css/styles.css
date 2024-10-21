@@ -315,7 +315,9 @@ body {
 .team-soc-icon {
   fill: #f4f4fd;
 }
-.team-list-item:hover .team-soc-item,
+.team-list-item:hover .team-soc-item {
+  background-color: #404bbf;
+}
 .team-list-item:focus .team-soc-item {
   background-color: #404bbf;
 }

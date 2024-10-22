@@ -318,7 +318,7 @@ body {
 .team-list-item:hover .team-soc-item {
   background-color: #404bbf;
 }
-.team-list-item:focus .team-soc-item {
+.team-soc-item:focus {
   background-color: #404bbf;
 }
 
